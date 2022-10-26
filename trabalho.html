@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<style>
+
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+</style>
+<link rel="shortcut icon" href="icone.png" type="image/x-icon">
+<title>Calculadora de TMB</title>
+</head>
+<body>
+<h1>O que é taxa de metabolismo basal?</h1>
+<p>Metabolismo basal é a quantidade de calorias que seu corpo gasta para mante-lô vivo ao longo do dia</p>
+<form>
+    <p>Sexo:</p>
+    <div>
+    <input type="radio" id="homem" value="Homem">
+    <label for="homem">Homem</label>
+    <input type="radio" id="mulher" value="Mulher">
+    <label for="mulher">Mulher</label>
+    </div>
+    <br>
+    <div>
+        <p1>Peso(kg):</p1>
+        <input type="text" size="2">
+    </div>
+    <br>
+    <div>
+    <p2>Altura(cm):</p2>
+    <input type="text" size="2">
+    </div>
+    <br>
+    <div>
+    <p3>Idade:</p3>
+    <input type="text" size="2" >
+    </div>    
+    <p>Taxa de atividade física:</p>
+    <select name="atividade" id="atividade" size="1">
+    <option value="1.2">Sedentário</option>
+    <option value="1.375">Pouco ativo</option>
+    <option value="1.55">Ativo</option>
+    <option value="1.725">Bastante ativo</option>
+    <option value="1.9">MUITO ativo</option>
+    </select>    
+    <br><br>
+    <input type="button" value="Calcular">
+    <br>
+    <p>Taxa de Metabolismo Basal</p>
+    <input type="text" size="10" >
+    
+</form>
+
+</body>
+</html>
